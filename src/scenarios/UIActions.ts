@@ -4,7 +4,7 @@ import SceneDirector from "../directors/SceneDirector";
 export const UIActions: Record < string, () => void > = {
     /** Reveals card UI and resets related panels. */
     showcards: () => {
-        CardDirector.create(5);
+        CardDirector.create(144);
         SceneDirector.hideGroup(['dialogues', 'cards', 'particles']);
         SceneDirector.showGroup('cards');
         SceneDirector.showContainer('buttonStartTween');
