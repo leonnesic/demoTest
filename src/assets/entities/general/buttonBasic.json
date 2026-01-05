@@ -42,12 +42,12 @@
     },
     "bitmaptext": {
         "position": {
-            "x": 40,
+            "x": 10,
             "y": 15
         },
         "text": "default",
         "fontFamily": "Kanit",
-        "fontSize":20,
+        "fontSize":25,
         "align": "center",
         "anchor": 0.5
     },

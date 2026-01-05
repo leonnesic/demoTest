@@ -35,7 +35,7 @@
         "text": "default",
         "color": "0xFFFFFF",
         "fontFamily": "Kanit",
-        "fontSize":30,
+        "fontSize":35,
         "align": "center",
         "anchor": 0.5
     }

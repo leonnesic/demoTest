@@ -1,4 +1,8 @@
-import { Application, Container, Graphics } from 'pixi.js';
+import {
+    Application,
+    Container,
+    Graphics
+} from 'pixi.js';
 import GameContext from '../core/GameContext.js';
 
 export default class Stage2DSystem {
@@ -8,7 +12,13 @@ export default class Stage2DSystem {
         const BASE_HEIGHT = 1080;
 
         const app = new Application();
-        await app.init({ background: '#000000' });
+        await app.init({
+            background: '#000000',
+            resolution: window.devicePixelRatio || 1,
+            autoDensity: true,
+            width: BASE_WIDTH,
+            height: BASE_HEIGHT,
+        });
 
         document.body.appendChild(app.canvas);
         globalThis.__PIXI_APP__ = app;
