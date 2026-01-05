@@ -25,6 +25,7 @@ export default class CardDirector {
         const ordered = [...CardDirector.cards].reverse();
         await ordered.reduce < Promise < void >> ((chain, entityId) => {
             return chain.then(() => {
+                ZOrderSystem.moveEntityToTop(entityId);
                 return Tween2DSystem.tweenNamed(entityId, target, {});
             });
         }, Promise.resolve());
