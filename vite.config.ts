@@ -30,10 +30,10 @@ export default defineConfig({
     watchAssets,
 
     viteImagemin({
-      gifsicle: { optimizationLevel: 2, interlaced: false },
-      optipng: { optimizationLevel: 4 },
-      pngquant: { quality: [0.8, 0.9] },
-      mozjpeg: { quality: 90 },
+      gifsicle: { optimizationLevel: 1, interlaced: false },
+      optipng: { optimizationLevel:1 },
+      pngquant: { quality: [0.9, 1] },
+      mozjpeg: { quality: 100 },
       svgo: {
         plugins: [
           { name: 'removeViewBox' },
