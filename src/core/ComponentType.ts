@@ -1,0 +1,25 @@
+const ComponentType = {
+  STAGE: 'stage',
+  CONTAINER: 'container',
+  SPRITE: 'sprite',
+  SPINE: 'spine',
+  TRANSFORM2D: 'transform2D',
+  BITMAPTEXT: 'bitmaptext',
+  GRAPHIC: 'graphic',
+  TEXT: 'text',
+  GROUP: 'group',
+  UI: 'ui',
+  TWEEN2D: 'tween2D',
+  FILTER: 'filter',
+  LAYOUT: 'layout',
+  CAMERA2D: 'camera2D',
+  MASK2D: 'mask2D',
+  SHAPE2D: 'shape2D',
+  STATE: 'state',
+  DATAFETCH: 'datafetch',
+  PARTICLE2D: 'particle2D',
+  TIMER: 'timer',
+  FPS: 'fps',
+} as const;
+export type ComponentTypeValue = typeof ComponentType[keyof typeof ComponentType];
+export default ComponentType;

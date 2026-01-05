@@ -1,0 +1,30 @@
+{
+    "transform2D": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1
+        },
+        "anchor": {
+            "x": 0,
+            "y": 0.5
+        },
+        "size": {
+            "x": 200,
+            "y": 200
+        },
+        "rotation": 0,
+        "transform": true
+    },
+    "container": {},
+    "group": {
+        "id": "dialogues"
+    },
+    "sprite": {
+        "animations": {
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "entities": [{
+            "assetId": "background",
+            "entityId": "background",
+            "components": {
+                "transform2D": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "rotation": 0
+                },
+                "container": {
+                    "visible": true
+                },
+                "sprite": {
+                    "animation": "idle",
+                    "position": {"x":0,"y":0},
+                    "speed": 1
+                }
+            }
+        },
+        {
+            "assetId": "companyLogo",
+            "entityId": "companyLogo",
+            "components": {
+                "transform2D": {
+                    "position": {
+                        "x": -810,
+                        "y": 470
+                    },
+                    "rotation": 0
+                },
+                "container": {
+                    "visible": true
+                },
+                "sprite": {
+                    "animation": "idle",
+                    "position": {"x":0,"y":0},
+                    "speed": 1
+                }
+            }
+        },
+        {
+            "assetId": "preloaderBar",
+            "entityId": "preloaderBar",
+            "components": {
+                "transform2D": {
+                    "position": {
+                        "x": 0,
+                        "y": 150
+                    },
+                    "rotation": 0
+                },
+                "container": {
+                    "visible": true
+                },
+                "sprite": {
+                    "animation": "idle",
+                    "position": {"x":0,"y":0},
+                    "speed": 1
+                }
+            }
+        },
+		{
+			"assetId": "cameraOrtho",
+			"entityId": "cameraOrtho",
+			"components": {
+				"transform2D": {
+					"position": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"rotation": 0
+				},
+				"camera2D": {
+					"fov": 60,
+					"aspect ": 1.777777777777778,
+					"near": 0.1,
+					"far": 1000,
+					"isActive": true
+				}
+			}
+		}
+    ]
+}

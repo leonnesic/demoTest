@@ -1,0 +1,43 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "npm run build:sprites && vite build",
+    "build:sprites": "node build/build-sprites.js"
+  },
+  "dependencies": {
+    "8": "^0.0.1",
+    "@esotericsoftware/spine-pixi-v8": "^4.2.96",
+    "@pixi/events": "7.4.3",
+    "@pixi/filter-drop-shadow": "5.2.0",
+    "@pixi/filter-outline": "^5.2.0",
+    "@pixi/particle-emitter": "^5.0.8",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.5.0",
+    "express": "^5.2.1",
+    "gsap": "3.14.2",
+    "jimp": "^1.6.0",
+    "pixi.js": "^8.14.3",
+    "reconnecting-websocket": "^4.4.0",
+    "signals": "^1.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "@types/ws": "^8.18.1",
+    "free-tex-packer-core": "^0.3.5",
+    "sass": "^1.97.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-static-copy": "^3.1.4"
+  },
+  "main": "vite.config.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

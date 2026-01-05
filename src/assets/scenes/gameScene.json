@@ -1,0 +1,153 @@
+{
+    "entities": [{
+        "assetId": "gameBackground",
+        "entityId": "gameBackground",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": true
+            },
+            "sprite": {
+                "animation": "idle",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            }
+        }
+    },{
+        "assetId": "buttonBasic",
+        "entityId": "buttonShowDialogues",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": -800,
+                    "y": 0
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": true
+            },
+            "sprite": {
+                "animation": "enabled",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            },
+            "text2D": {
+                "text":"Show Dialogues"
+            }
+        }
+    },{
+        "assetId": "buttonBasic",
+        "entityId": "buttonShowCards",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": -800,
+                    "y": 80
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": true
+            },
+            "sprite": {
+                "animation": "enabled",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            },
+            "text2D": {
+                "text":"Show Cards"
+            }
+        }
+    },{
+        "assetId": "buttonTween",
+        "entityId": "buttonStartTween",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": -580,
+                    "y": 80
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": false
+            },
+            "sprite": {
+                "animation": "enabled",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            },
+            "text2D": {
+                "text":"Start"
+            }
+        }
+    },{
+        "assetId": "buttonTween",
+        "entityId": "buttonReset",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": -470,
+                    "y": 80
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": false
+            },
+            "sprite": {
+                "animation": "enabled",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            },
+            "text2D": {
+                "text":"Reset"
+            }
+        }
+    },{
+        "assetId": "buttonBasic",
+        "entityId": "buttonShowParticles",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": -800,
+                    "y": 160
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": true
+            },
+            "sprite": {
+                "animation": "enabled",
+                "position": {"x":0,"y":0},
+                "speed": 0.05
+            },
+            "text2D": {
+                "text":"Show Particles"
+            }
+        }
+    },{
+        "assetId": "mainFire",
+        "entityId": "mainFire",
+        "components": {
+            "transform2D": {
+                "position": {
+                    "x": 970,
+                    "y": -280
+                },
+                "rotation": 0
+            },
+            "container": {
+                "visible": true
+            }
+        }
+    }]
+}

@@ -1,0 +1,62 @@
+{
+    "emissionRate": 10,
+    "lifetime": {
+        "min": 0.8,
+        "max": 5.2
+    },
+    "maxParticles": 1500,
+    "pos": {
+        "x": 10,
+        "y": 11
+    },
+    "alpha": {
+        "list": [{
+            "value": 0.5,
+            "time": 0
+        }, {
+            "value": 0,
+            "time": 1
+        }]
+    },
+    "scale": {
+        "list": [{
+            "value": 0.3,
+            "time": 0
+        }, {
+            "value": 0.9,
+            "time": 1
+        }]
+    },
+    "color": {
+        "list": [{
+                "value": "ff3300",
+                "time": 0
+            },
+            {
+                "value": "cc0000",
+                "time": 0.7
+            },
+            {
+                "value": "330000",
+                "time": 1
+            }
+        ]
+    },
+    "speed": {
+        "min": 20,
+        "max": 60
+    },
+    "direction": {
+        "angle": -120,
+        "spread": 40
+    },
+    "gravity": {
+        "x": 0,
+        "y": -55
+    },
+    "rotation": {
+        "min": 0,
+        "max": 90
+    },
+    "textures": ["smoke.png"]
+}

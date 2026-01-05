@@ -1,0 +1,62 @@
+{
+    "emissionRate": 10,
+    "lifetime": {
+        "min": 0.2,
+        "max": 3
+    },
+    "maxParticles": 5000,
+    "pos": {
+        "x": 25,
+        "y": 30
+    },
+    "alpha": {
+        "list": [{
+            "value": 0.1,
+            "time": 0
+        }, {
+            "value": 0,
+            "time": 1
+        }]
+    },
+    "scale": {
+        "list": [{
+            "value": 0.15,
+            "time": 0
+        }, {
+            "value": 0.1,
+            "time": 1
+        }]
+    },
+    "color": {
+        "list": [{
+                "value": "ffff99",
+                "time": 0
+            },
+            {
+                "value": "ffcc00",
+                "time": 0.5
+            },
+            {
+                "value": "ff6600",
+                "time": 1
+            }
+        ]
+    },
+    "speed": {
+        "min": 10,
+        "max": 30
+    },
+    "direction": {
+        "angle": -90,
+        "spread": 110
+    },
+    "gravity": {
+        "x": 0,
+        "y": -100
+    },
+    "rotation": {
+        "min": 0,
+        "max": 360
+    },
+    "textures": ["spark.png"]
+}

@@ -1,0 +1,69 @@
+{
+    "transform2D": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 125,
+            "y": 52
+        },
+        "rotation": 0,
+        "transform": true
+    },
+    "container": {},
+    "sprite": {
+        "animations": {
+            "idle": {
+                "frames": ["companyLogo"],
+                "position": {
+                    "x": 10,
+                    "y": 20
+                },
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "speed": 1.2,
+                "loop": true
+            }
+        }
+    },
+    "group": {
+        "id": "preloader"
+    },
+    "ui": {
+        "interactive": "static",
+        "cursor": "pointer",
+        "customData": {
+            "type": "testw"
+        }
+    },
+    "tween2D": {
+        "tweens": {
+            "fadeIn": {
+                "props": {
+                    "alpha": 1
+                },
+                "duration": 0.5,
+                "ease": "linear"
+            },
+            "flyUp": {
+                "props": {
+                    "y": "-2",
+                    "alpha": 0.5
+                },
+                "duration": 1,
+                "ease": "power1.inOut"
+            }
+        }
+    }
+}

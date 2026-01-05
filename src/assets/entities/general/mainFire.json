@@ -1,0 +1,46 @@
+{
+    "transform2D": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 1920,
+            "y": 1080
+        },
+        "rotation": 0,
+        "transform": true
+    },
+    "container": {},
+    "group": {
+        "id": "particles"
+    },
+    "particle2D": {
+        "emitters": [{
+                "effectId": "smoke.json",
+                "textureId": "smoke.png"
+            }, {
+                "effectId": "fire.json",
+                "textureId": "fire.png"
+            },
+            {
+                "effectId": "sparks.json",
+                "textureId": "spark.png"
+            },
+            {
+                "effectId": "glow.json",
+                "textureId": "glow.png"
+            }
+        ],
+        "isActive": true
+    }
+
+}

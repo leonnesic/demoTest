@@ -1,0 +1,71 @@
+{
+     "transform2D": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 590,
+            "y": 18
+        },
+        "rotation": 0,
+        "transform": true
+    },
+    "container": {},
+    "group": {
+        "id": "preloader"
+    },
+    "sprite": {
+        "animations": {
+            "idle": {
+                "frames": ["preloaderBar"],
+                "position": {
+                    "x": 10,
+                    "y": 20
+                },
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "speed": 1.2,
+                "loop": true
+            }
+        }
+    },
+    "shape2D": {
+        "shape" : "rect",
+        "radius" : 10,
+        "color" : "254dba",
+        "alpha" : 1,
+        "size" : {"x": 575,"y": 8},
+        "pivot" : {"x": 0,"y": 0},
+        "position": {"x": 8,"y": 6},
+        "scale": {"x": 1,"y": 1},
+        "strokeColor": "12FF33",
+        "strokeWidth": 3, 
+        "gradientNo": [
+            {"offset": 0, "color": "#00ffcc" },
+            {"offset": 1, "color": "#009999" }
+        ]
+    },
+    "bitmaptext": {
+        "text": "loading",
+        "position": {
+            "x": 250,
+            "y": 20
+        },
+        "color": "0x121212",
+        "fontFamily": "KanitWhite",
+        "fontSize": 25,
+        "align": "center",
+        "anchor": 0.5
+    } 
+}

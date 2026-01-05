@@ -1,0 +1,62 @@
+{
+    "transform2D": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "size": {
+            "x": 250,
+            "y": 375
+        },
+        "rotation": 0,
+        "transform": true
+    },
+    "container": {},
+    "group": {
+        "id": "cards"
+    },
+    "sprite": {
+        "animations": {
+            "idle": {
+                "frames": ["cardFront"],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "speed": 1.2,
+                "loop": true
+            }
+        }
+    },
+    "tween2D": {
+        "tweens": {
+            "flyUp": {
+                "props": {
+                    "x": "400",
+                    "y": "300"
+                },
+                "duration": 1,
+                "ease": "power1.inOut"
+            },
+            "reset": {
+                "props": {
+                    "x": "0",
+                    "y": "0"
+                },
+                "duration": 0.1
+            }
+        }
+    }
+}
